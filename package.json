@@ -1,10 +1,14 @@
 {
-  "name": "design-scaffold-project-choice-evelync",
+  "name": "blog-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --start",
+    "debug": "DEBUG=* eleventy"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/staten-island-tech/design-scaffold-project-choice-evelync/issues"
   },
-  "homepage": "https://github.com/staten-island-tech/design-scaffold-project-choice-evelync#readme"
+  "homepage": "https://github.com/staten-island-tech/design-scaffold-project-choice-evelync#readme",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
 }
