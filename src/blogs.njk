@@ -11,7 +11,7 @@
     <h1>blogs</h1>
     <section class="section-container">
         <ul class="articles">
-            {%- for post in collections.post -%}
+            {%- for post in collections.post | reverse -%}
             <article class="article">
                 <div class="article-text">
                     <h3 class="article-title">{{post.data.title}}</h3>
