@@ -1,0 +1,24 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --purple: #c8b6db;
+  --light-purple: #e8e0f0;
+  --dark-purple: #907ea0;
+  --green: #87a793;
+  --light-green: #b9cfbe;
+  --dark-green: #466650;
+
+  /*intentions*/
+  --primary: var(--purple);
+  --secondary: var(--light-purple);
+  --tertiary: var(--dark-purple);
+
+  /*typography*/
+  --h1: 1.563rem;
+  --h2: ;
+  --h3: ;
+  --h4: ;
+}
+
+.green {
+}

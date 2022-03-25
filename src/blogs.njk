@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="/style/styles.css">
     <title>blogs</title>
 </head>
-<body>
+
+<body class="purple">
     {% include 'nav.njk' %}
     <h1>blogs</h1>
     <section class="section-container">
@@ -16,8 +17,9 @@
                 <div class="article-text">
                     <h3 class="article-title">{{post.data.title}}</h3>
                     <h4 class="article-author">By {{post.data.author}}: {{post.data.date | postDate}}</h4>
-                    <a class="article-link" href="{{post.url}}">continue reading</a>
                     <img src="{{post.data.image}}" alt="image-preview">
+                    <a class="article-link" href="{{post.url}}">continue reading</a>
+                    
 
                 </div>
             </article>
@@ -26,6 +28,6 @@
         </ul>
     </section>
 
-
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
