@@ -9,7 +9,13 @@ body,
   font-size: 62.5%;
 } */
 
-.desk {
-  display: flex;
-  flex-direction: row;
+.nav-item-desk {
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.nav-item-home,
+.nav-item-blog {
+  display: inline;
 }

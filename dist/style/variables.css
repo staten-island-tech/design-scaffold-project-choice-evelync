@@ -15,10 +15,26 @@
 
   /*typography*/
   --h1: 1.563rem;
-  --h2: ;
-  --h3: ;
-  --h4: ;
+  --h2: 1.25rem;
+  --h3: 1.25rem;
+  --h4: 1.25rem;
+}
+
+.h1 {
+  font-size: var(--h1);
+}
+.h2 {
+  font-size: var(--h2);
+}
+.h3 {
+  font-size: var(--h3);
+}
+.h4 {
+  font-size: var(--h4);
 }
 
 .green {
+  --primary: var(--green);
+  --secondary: var(--light-green);
+  --tertiary: var(--dark-green);
 }
