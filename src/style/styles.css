@@ -9,6 +9,10 @@ body,
   font-size: 62.5%;
 } */
 
+.desk {
+  background-color: var(--purple);
+}
+
 .nav-item-desk {
   display: flex;
   flex-direction: row;
@@ -40,6 +44,7 @@ body,
   background-color: var(--purple);
   border-radius: 2rem;
   font-size: 1.7rem;
+  float: right;
 }
 
 .article-img {
@@ -52,6 +57,12 @@ body,
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 30rem;
+  width: 30rem;
+  object-fit: contain;
+}
+
+.home-pic {
   height: 30rem;
   width: 30rem;
   object-fit: contain;
