@@ -1,13 +1,13 @@
 @import url(variables.css);
 
-/* html,
+html,
 body,
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-} */
+}
 
 .desk {
   background-color: var(--purple);
@@ -33,6 +33,9 @@ body,
 .nav-item-blog {
   text-decoration: none;
   text-align: center;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .color-btn {
@@ -41,7 +44,9 @@ body,
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  background-color: var(--purple);
+  margin-top: 1rem;
+  margin-right: 1rem;
+  background-color: var(--light-purple);
   border-radius: 2rem;
   font-size: 1.7rem;
   float: right;
@@ -66,4 +71,8 @@ body,
   height: 30rem;
   width: 30rem;
   object-fit: contain;
+}
+
+.header-container {
+  display: grid;
 }
