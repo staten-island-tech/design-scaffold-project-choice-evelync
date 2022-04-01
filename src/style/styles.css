@@ -3,6 +3,7 @@
 html,
 body,
 * {
+  font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -46,7 +47,7 @@ body,
   padding-top: 1rem;
   margin-top: 1rem;
   margin-right: 1rem;
-  background-color: var(--light-purple);
+  background-color: var(--secondary);
   border-radius: 2rem;
   font-size: 1.7rem;
   float: right;
