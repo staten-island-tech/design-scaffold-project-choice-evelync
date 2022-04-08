@@ -11,7 +11,7 @@ body,
 }
 
 .desk {
-  background-color: var(--purple);
+  background-color: var(--primary);
 }
 
 .nav-item-desk {
@@ -116,7 +116,7 @@ body,
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-radius: 1.5rem;
-  background-color: var(--light-purple);
+  background-color: var(--secondary);
 }
 
 .article-text {
@@ -140,4 +140,16 @@ body,
 .article-link {
   display: inline-block;
   margin-top: 1rem;
+}
+
+.blog-content-title {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.blog-content {
+  display: inline-block;
+  margin-top: auto;
+  margin-right: auto;
 }
