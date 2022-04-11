@@ -12,11 +12,10 @@
     {% include 'nav.njk' %}
     <h1 class="blog-content-title">{{title}}</h1>
     <article>
-        <img src="{{image}}" alt="" class="article-img">
+        <img src="{{image}}" alt="" class="blog-content-img">
     </article>
     
     {{content | safe}}
 
-    <script type="module" src="./js/index.js"></script>
 </body>
 </html>

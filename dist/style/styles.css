@@ -146,10 +146,35 @@ body,
   text-align: center;
   font-size: 5rem;
   font-weight: 700;
+  margin-top: 1rem;
 }
 
 .blog-content {
-  display: inline-block;
-  margin-top: auto;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-size: 5rem;
+}
+
+.recipe-div {
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 2rem;
+  background-color: var(--secondary);
+  margin-left: auto;
   margin-right: auto;
+  width: 30rem;
+  line-height: 2.5rem;
+}
+
+.blog-content-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  height: 30rem;
+  width: 30rem;
+  object-fit: contain;
 }
