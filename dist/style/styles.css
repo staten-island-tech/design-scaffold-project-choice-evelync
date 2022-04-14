@@ -149,25 +149,6 @@ body,
   margin-top: 1rem;
 }
 
-.blog-content {
-  margin-left: 10rem;
-  margin-right: 10rem;
-  font-size: 5rem;
-}
-
-.recipe-div {
-  padding-left: 2rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-radius: 2rem;
-  background-color: var(--secondary);
-  margin-left: auto;
-  margin-right: auto;
-  width: 30rem;
-  line-height: 2.5rem;
-}
-
 .blog-content-img {
   display: block;
   margin-left: auto;
