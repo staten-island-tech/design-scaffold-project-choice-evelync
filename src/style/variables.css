@@ -12,10 +12,21 @@
   --primary: var(--purple);
   --secondary: var(--light-purple);
   --tertiary: var(--dark-purple);
+
+  --h2: 4.7rem;
+  --h3: 3rem;
 }
 
 .green {
   --primary: var(--green);
   --secondary: var(--light-green);
   --tertiary: var(--dark-green);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
 }
