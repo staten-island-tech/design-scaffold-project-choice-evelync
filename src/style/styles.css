@@ -51,6 +51,11 @@ body,
     1px 0 var(--tertiary), 0 -1px var(--tertiary);
 }
 
+.nav-item-li:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
 .color-btn {
   padding-left: 1rem;
   padding-right: 1rem;
