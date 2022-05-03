@@ -103,6 +103,10 @@ body,
   float: left;
 }
 
+.home-list-div {
+  display: in-block;
+}
+
 .article-img {
   height: 20rem;
   width: 20rem;
