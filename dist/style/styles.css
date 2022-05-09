@@ -65,6 +65,7 @@ body,
   margin-right: 1rem;
   background-color: var(--secondary);
   border-radius: 2rem;
+  border: 0rem;
   font-size: 1.7rem;
   position: relative;
   float: right;
@@ -126,8 +127,17 @@ body,
   margin-top: 6rem;
 }
 
+.all-articles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
 .article {
-  width: 50rem;
+  width: 45rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 1rem;
@@ -142,6 +152,7 @@ body,
 
 .article-text {
   font-size: 3rem;
+  text-align: center;
 }
 
 .article-title,
@@ -150,12 +161,12 @@ body,
   text-align: center;
 }
 
-.article-author {
+.article-title {
   margin-bottom: 1rem;
 }
 
-.article-text {
-  text-align: center;
+.article-author {
+  margin-bottom: 1rem;
 }
 
 .article-link {
@@ -182,13 +193,36 @@ body,
 }
 
 @media (max-width: 390px) {
+  .home-pic {
+    display: block;
+    margin: 1rem;
+    height: 35rem;
+    width: 35rem;
+    object-fit: contain;
+  }
+  .home-description {
+    margin: 1rem;
+    width: 35rem;
+    float: none;
+  }
+  .description-title {
+    font-size: 4.7rem;
+  }
+  .description-p {
+    font-size: 2.6rem;
+  }
+
   .article {
     padding: 1rem;
     font-size: 3rem;
+    width: 35rem;
   }
   .blog-img {
     height: 20rem;
     width: 20rem;
     object-fit: contain;
+  }
+  .article-title {
+    font-size: 2.7rem;
   }
 }
