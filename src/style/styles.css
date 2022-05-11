@@ -193,6 +193,9 @@ body,
 }
 
 @media (max-width: 390px) {
+  #blog-title {
+    font-size: 2.2rem;
+  }
   .home-pic {
     display: block;
     margin: 1rem;
@@ -224,5 +227,47 @@ body,
   }
   .article-title {
     font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 810px) {
+  .home-pic {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    height: 32rem;
+    width: 32rem;
+    object-fit: contain;
+  }
+  .home-description {
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    width: 45rem;
+  }
+  .description-title {
+    font-size: 4rem;
+  }
+  .description-p {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .home-pic {
+    margin-left: 1.5rem;
+    margin-top: 5rem;
+    height: 35rem;
+    width: 35rem;
+    object-fit: contain;
+  }
+  .home-description {
+    margin-right: 0.1rem;
+    margin-top: 9rem;
+    width: 55rem;
+  }
+  .description-title {
+    font-size: 4rem;
+  }
+  .description-p {
+    font-size: 2.5rem;
   }
 }
