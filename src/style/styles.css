@@ -64,6 +64,7 @@ body,
   margin-top: 1rem;
   margin-right: 1rem;
   background-color: var(--secondary);
+  color: black;
   border-radius: 2rem;
   border: 0rem;
   font-size: 1.7rem;
